@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import CountUp from 'react-countup'
+
 
 const stats = [
   { value: 5, suffix: '+', label: 'Projects Completed', emoji: '🚀', desc: '4 personal + 1 internship project' },
@@ -41,7 +41,7 @@ export default function Achievements() {
               transition={{ delay: i * 0.1 }}>
               <div className="text-4xl mb-3">{s.emoji}</div>
               <div className="text-4xl font-display font-bold gradient-text mb-1">
-                {inView ? <CountUp end={s.value} duration={2} delay={i * 0.1} /> : 0}{s.suffix}
+                {s.value}{s.suffix}
               </div>
               <div className="font-semibold text-gray-800 dark:text-white text-sm mb-1">{s.label}</div>
               <div className="text-xs text-gray-500 dark:text-gray-400">{s.desc}</div>

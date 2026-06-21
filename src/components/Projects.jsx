@@ -78,7 +78,7 @@ const projects = [
       'Vercel Deployment',
     ],
     github: 'https://github.com/srinivas2101',
-    demo: '#',
+    demo: 'https://srinivasan-portfolio-lqae.vercel.app/',
     gradient: 'from-pink-500 via-rose-500 to-red-500',
     emoji: '🌐',
     tag: 'Personal Project',

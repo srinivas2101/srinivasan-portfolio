@@ -15,10 +15,12 @@ import Footer from './components/Footer'
 import ScrollProgress from './components/ScrollProgress'
 import BackToTop from './components/BackToTop'
 import LoadingScreen from './components/LoadingScreen'
+import ResumeModal from './components/Resume'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true)
   const [loading, setLoading] = useState(true)
+  const [resumeOpen, setResumeOpen] = useState(false)
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2200)
@@ -33,6 +35,12 @@ function App() {
     }
   }, [darkMode])
 
+  useEffect(() => {
+    const handler = (e) => { if (e.key === 'Escape') setResumeOpen(false) }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [])
+
   return (
     <div className={darkMode ? 'dark' : ''}>
       <AnimatePresence>
@@ -42,9 +50,9 @@ function App() {
       {!loading && (
         <div className="min-h-screen bg-white dark:bg-dark-900 transition-colors duration-300">
           <ScrollProgress />
-          <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Navbar darkMode={darkMode} setDarkMode={setDarkMode} onResumeOpen={() => setResumeOpen(true)} />
           <main>
-            <Hero />
+            <Hero onResumeOpen={() => setResumeOpen(true)} />
             <About />
             <Education />
             <Skills />
@@ -57,6 +65,7 @@ function App() {
           </main>
           <Footer />
           <BackToTop />
+          <ResumeModal isOpen={resumeOpen} onClose={() => setResumeOpen(false)} />
         </div>
       )}
     </div>

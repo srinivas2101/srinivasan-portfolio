@@ -60,8 +60,8 @@ export default function ResumeModal({ isOpen, onClose }) {
 
           {/* PDF Viewer */}
           <div className="flex-1 overflow-hidden bg-gray-200 dark:bg-dark-900">
-            <object data="/resume.pdf" type="application/pdf" className="w-full h-full">
-              <embed src="/resume.pdf" type="application/pdf" className="w-full h-full" />
+            <object data="/Srinivasan-Resume.pdf" type="application/pdf" className="w-full h-full">
+              <embed src="/Srinivasan-Resume.pdf" type="application/pdf" className="w-full h-full" />
             </object>
           </div>
 

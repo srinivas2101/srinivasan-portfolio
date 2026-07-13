@@ -79,7 +79,7 @@ export default function Hero()  {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
             >
-              {['React.js', 'FastAPI', 'SQL', 'Python', 'Tailwind'].map(tech => (
+              {['React.js', 'FastAPI', 'SQL', 'Python', 'JavaScript'].map(tech => (
                 <span key={tech} className="px-3 py-1 rounded-lg text-xs font-mono font-medium bg-primary-500/10 text-primary-400 border border-primary-500/20">
                   {tech}
                 </span>
@@ -95,7 +95,8 @@ export default function Hero()  {
               <a href="#contact" className="btn-primary flex items-center gap-2">
                               Contact Me <FiArrowRight />
                             </a>
-                            <a href="/resume.pdf" download className="btn-outline flex items-center gap-2">
+                            <a href="/Srinivasan-Resume.pdf"  target="_blank"
+  rel="noopener noreferrer" className="btn-outline flex items-center gap-2">
                               <FiDownload /> Resume
                             </a>
             </motion.div>

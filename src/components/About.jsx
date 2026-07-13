@@ -33,7 +33,7 @@ export default function About() {
               <p>
                 My core stack is <span className="text-primary-500 font-semibold">React.js</span> for dynamic frontends
                 and <span className="text-accent-500 font-semibold">FastAPI</span> with{' '}
-                <span className="text-purple-500 font-semibold">MongoDB</span> for scalable backends.
+                <span className="text-purple-500 font-semibold">SQL</span> for scalable backends.
                 I take pride in writing clean, well-structured code following MVC architecture,
                 role-based authentication, and RESTful API design principles.
               </p>
@@ -85,7 +85,7 @@ export default function About() {
               <h3 className="font-display font-semibold text-gray-800 dark:text-white mb-2">🎯 Career Goal</h3>
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 Seeking a Full Stack Developer role where I can build impactful products, grow with a
-                dynamic team, and contribute to meaningful software solutions using React.js, FastAPI & MongoDB.
+                dynamic team, and contribute to meaningful software solutions using React.js, FastAPI & SQL.
               </p>
             </motion.div>
           </motion.div>

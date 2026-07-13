@@ -4,7 +4,7 @@ import { FiCode, FiDatabase, FiTool, FiLayout, FiMonitor } from 'react-icons/fi'
 import {
   SiReact, SiJavascript, SiHtml5, SiTailwindcss,
   SiPython, SiFastapi,
-  SiMongodb, SiMysql,
+  SiMysql,
   SiGit, SiGithub,
 } from 'react-icons/si'
 import { FaCss3Alt, FaC } from 'react-icons/fa6'
@@ -37,7 +37,6 @@ const skillCategories = [
     icon: FiDatabase,
     color: 'from-accent-500 to-teal-600',
     skills: [
-      { name: 'MongoDB', icon: SiMongodb, level: 85, color: '#47A248' },
       { name: 'MySQL', icon: SiMysql, level: 75, color: '#4479A1' },
     ],
   },
@@ -122,7 +121,6 @@ export default function Skills() {
               { icon: SiReact, color: '#61DAFB', name: 'React' },
               { icon: SiFastapi, color: '#009688', name: 'FastAPI' },
               { icon: SiPython, color: '#3776AB', name: 'Python' },
-              { icon: SiMongodb, color: '#47A248', name: 'MongoDB' },
               { icon: SiGit, color: '#F05032', name: 'Git' },
             ].map(({ icon: Icon, color, name }) => (
               <div key={name} className="flex flex-col items-center gap-1 group cursor-default">

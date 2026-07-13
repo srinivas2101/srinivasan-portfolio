@@ -39,11 +39,11 @@ export default function ResumeModal({ isOpen, onClose }) {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer"
+              <a href="//Srinivasan-Resume.pdf" target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-dark-600 transition-all">
                 <FiExternalLink size={14} /><span className="hidden sm:inline">Open</span>
               </a>
-              <a href="/resume.pdf" download="Srinivasan_Resume.pdf"
+              <a href="//Srinivasan-Resume.pdf" download="Srinivasan_Resume.pdf"
                 className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold gradient-bg text-white hover:scale-105 transition-transform">
                 <FiDownload size={14} /><span className="hidden sm:inline">Download</span>
               </a>
@@ -68,7 +68,7 @@ export default function ResumeModal({ isOpen, onClose }) {
           {/* Footer */}
           <div className="flex items-center justify-between px-5 py-2.5 border-t border-gray-200 dark:border-white/10 bg-gray-50 dark:bg-dark-700 flex-shrink-0">
             <p className="text-xs text-gray-400 font-mono">Full Stack Developer | MCA Student</p>
-            <a href="/resume.pdf" download="Srinivasan_Resume.pdf"
+            <a href="/Srinivasan-Resume.pdf" download="Srinivasan_Resume.pdf"
               className="flex items-center gap-1.5 text-xs font-semibold text-primary-500 hover:text-primary-400 transition-colors">
               <FiDownload size={12} /> Save PDF
             </a>

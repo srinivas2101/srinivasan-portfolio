@@ -79,7 +79,7 @@ export default function Hero()  {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
             >
-              {['React.js', 'FastAPI', 'MongoDB', 'Python', 'Tailwind'].map(tech => (
+              {['React.js', 'FastAPI', 'SQL', 'Python', 'Tailwind'].map(tech => (
                 <span key={tech} className="px-3 py-1 rounded-lg text-xs font-mono font-medium bg-primary-500/10 text-primary-400 border border-primary-500/20">
                   {tech}
                 </span>

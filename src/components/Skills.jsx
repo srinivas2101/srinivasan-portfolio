@@ -121,7 +121,7 @@ export default function Skills() {
               { icon: SiReact, color: '#61DAFB', name: 'React' },
               { icon: SiFastapi, color: '#009688', name: 'FastAPI' },
               { icon: SiPython, color: '#3776AB', name: 'Python' },
-              { icon: SiGit, color: '#F05032', name: 'Git' },
+              { icon: SiGit, color: '#F05032', name: 'SQL' },
             ].map(({ icon: Icon, color, name }) => (
               <div key={name} className="flex flex-col items-center gap-1 group cursor-default">
                 <div className="w-12 h-12 rounded-xl glass flex items-center justify-center group-hover:scale-125 transition-transform">

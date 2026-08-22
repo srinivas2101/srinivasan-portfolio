@@ -6,16 +6,16 @@ import { FiGithub, FiExternalLink, FiClock } from 'react-icons/fi'
 const projects = [
   {
     id: 1,
-    title: 'Business Intelligence Platform',
+    title: 'Business Intelligence System',
     category: 'Full Stack',
-    desc: 'Full-stack BI application to analyze sales performance, customer behavior, and product trends through interactive dashboards with demand prediction.',
-    stack: ['React.js', 'PHP', 'MySQL', 'Recharts'],
+    desc: 'A centralized Business Intelligence platform designed to address fragmented sales and inventory data by providing interactive dashboards for sales performance, inventory status, product performance, and overall business operations. The system includes risk-based inventory monitoring to identify low-stock, critical, and expiring products, along with a FastAPI-based Machine Learning service for demand forecasting. It also supports what-if simulations and price analysis to help users evaluate the potential impact of pricing, discounts, sales, revenue, and profitability decisions.',
+    stack: ['React.js', 'Node.js', 'MySQL', 'FastAPI'],
     features: [
-      'Interactive Sales Analytics Dashboard',
-      'Demand Prediction & Forecasting',
-      'Customer Behavior Analysis',
-      'Data Visualizations with Recharts',
-      'Product Trend Reports',
+      'Centralized Sales & Inventory Dashboard',
+      'Risk-Based Inventory Monitoring',
+      'Demand Forecasting with Machine Learning',
+      'What-If Simulations & Price Analysis',
+      'Business Performance & Revenue Insights',
     ],
     github: 'https://github.com/srinivas2101/Business-intelligence',
     demo: 'https://github.com/srinivas2101/Business-intelligence',
@@ -28,7 +28,7 @@ const projects = [
     id: 2,
     title: 'FormFlow',
     category: 'Full Stack',
-    desc: 'Role-based form management system with secure JWT authentication, authorization, and complete CRUD operations for form submission and approval workflow.',
+    desc: 'A role-based digital form submission and approval management system developed to streamline organizational workflows and reduce manual form processing. The application provides secure authentication, role-based authorization, form creation, submission, tracking, and approval workflows for different users such as employees, managers, and administrators. It uses REST APIs to connect the React.js frontend with the FastAPI backend and MongoDB for storing and managing application data.',
     stack: ['React.js', 'FastAPI', 'MongoDB', 'JWT'],
     features: [
       'JWT Authentication & Authorization',
@@ -48,7 +48,7 @@ const projects = [
     id: 3,
     title: 'ChocoBliss',
     category: 'Frontend',
-    desc: 'Modern, responsive Chocolate E-Commerce Website with elegant product showcase and category-based browsing built with pure vanilla web technologies.',
+    desc: 'A modern and responsive chocolate e-commerce website developed to provide users with a simple and engaging online shopping experience. The website includes a visually appealing product showcase, category-based browsing, responsive layouts, smooth animations, and an easy-to-use interface. It was built using HTML5, CSS3, and JavaScript with a focus on clean UI design, responsive behavior, and interactive frontend functionality.',
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     features: [
       'Responsive Product Showcase',
@@ -68,7 +68,7 @@ const projects = [
     id: 4,
     title: 'Portfolio Website',
     category: 'Frontend',
-    desc: 'This premium portfolio website built with React.js, Vite, Tailwind CSS and Framer Motion — featuring dark/light mode, animations, and EmailJS contact form.',
+    desc: 'A responsive personal portfolio website developed to showcase my technical skills, projects, experience, and professional profile in an interactive and modern interface. The website is built with React.js and Vite, styled using Tailwind CSS, and enhanced with Framer Motion animations. It includes dark and light mode support, responsive layouts, animated sections, project showcases, and an EmailJS-powered contact form, and is deployed using Vercel.',
     stack: ['React.js', 'Tailwind CSS', 'Framer Motion', 'Vite'],
     features: [
       'Dark / Light Mode Toggle',
@@ -88,7 +88,7 @@ const projects = [
     id: 5,
     title: 'CodSoft Projects',
     category: 'Frontend',
-    desc: 'Three frontend tasks completed during CodSoft virtual internship — a static Portfolio webpage, a JavaScript Calculator, and a responsive Landing Page.',
+    desc: 'A collection of three frontend development tasks completed during my CodSoft virtual internship, demonstrating practical experience in building responsive and interactive web interfaces. The projects include a static portfolio webpage, a JavaScript-based calculator application, and a responsive landing page. These tasks helped strengthen my fundamentals in HTML, CSS, JavaScript, responsive design, UI development, and Git-based version control.',
     stack: ['HTML5', 'CSS3', 'JavaScript'],
     features: [
       'Static Portfolio Web Page',
